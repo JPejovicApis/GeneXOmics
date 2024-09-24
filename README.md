@@ -145,7 +145,7 @@ A log file containing the summary of the STARsolo alignment and quantification p
 
 - **STARsolo Outputs**: Barcode-aware alignments, cell-UMI matrices, and gene quantifications, available in the results/STARsolo/test_rnaseq_Solo.out/ directory.
 
-## **Running pipeline on AWS 
+## **Running pipeline on AWS** 
 
 ```
 nextflow run main.nf -profile test_aws -plugins nf-quilt --outdir 'quilt+s3://GeneXOmics/results' 
