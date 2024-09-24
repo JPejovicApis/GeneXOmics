@@ -1,4 +1,4 @@
-nextflow.preview.dsl=2
+nextflow.enable.dsl=2
 
 
 def printHeader() {
@@ -34,7 +34,9 @@ def helpMessage() {
 
 
     OTHER
-        --output_dir                        [folder]        Path to the output folder
+        -- output_dir                        [folder]        Path to the output folder [Default: results]
+        -- aligner                           [str]           Choose aligner (kallisto,cellranger, etc) [default:star] 
+        -- skip_fastqc                       [bool]          Determine weather to use skipp fastqc or not [Default: null]
 
 
     Important information:
