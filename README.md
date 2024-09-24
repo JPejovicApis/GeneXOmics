@@ -66,9 +66,9 @@ python create_csv_readsfile.py --fastq_dir /path/to/fastq_files --output_csv rea
 
 ## List of parametars 
 
-    - **output_dir**        - Path to the output folder [Default: results]
-    - **aligner**           - Choose aligner (kallisto,cellranger, etc) [default:star] 
-    - **skip_fastqc**       - Determine weather to use skipp fastqc or not [Default: null]
+    - output_dir        - Path to the output folder [Default: results]
+    - aligner           - Choose aligner (kallisto,cellranger, etc) [default:star] 
+    - skip_fastqc       - Determine weather to use skipp fastqc or not [Default: null]
 
 ## **Running the Pipeline**
 - Clone the repository containing the pipeline:
